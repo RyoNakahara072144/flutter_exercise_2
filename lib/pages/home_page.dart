@@ -9,17 +9,14 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(centerTitle: true, title: const Text('タイトル', style: AppTextStyles.h1,),),
-      body: Container(
-        alignment: Alignment.topLeft,
-        child: ElevatedButton(
-          onPressed: ()=>Navigator.of(context).push(MaterialPageRoute(builder: (context){return const Page1();})),
-          style: ButtonStyle(
-              padding: MaterialStateProperty.all(const EdgeInsets.all(20)),
-              shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)))
-          ),
-          child: const Text('page1', style: AppTextStyles.body),
+      appBar: AppBar(centerTitle: true, title: const Text('タイトル', style: AppTextStyles.title,),),
+      body: ElevatedButton(
+        onPressed: ()=>Navigator.of(context).push(MaterialPageRoute(builder: (context){return const Page1();})),
+        style: ButtonStyle(
+            padding: MaterialStateProperty.all(const EdgeInsets.all(20)),
+            shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)))
         ),
+        child: const Text('page1', style: AppTextStyles.body),
       ),
     );
   }
