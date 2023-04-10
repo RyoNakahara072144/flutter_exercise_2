@@ -1,16 +1,19 @@
-# flutter_exercise_2
+# Flutter基礎講座第２回練習問題
 
-Flutter基礎講座練習問題part2
+## 問１
+ボタンのあるColumnが中央に位置するようにしてください。
 
-## Getting Started
+## 問２
+新しい画面Page2を作成してください。
 
-This project is a starting point for a Flutter application.
+## 問３
+Page2に画面遷移するボタンをメイン画面に追加してください。
 
-A few resources to get you started if this is your first Flutter project:
+## 問４
+Page2に前のページへ戻るボタンを追加してください。ボタンは画面の中央に置くこと。
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 問５
+3つの画面のタイトル全てを白色にしてください。
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 問６
+page1に遷移するボタンの角の丸みを無くしてください。
