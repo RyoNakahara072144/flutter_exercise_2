@@ -17,3 +17,6 @@ Page2に前のページへ戻るボタンを追加してください。ボタン
 
 ## 問６
 page1に遷移するボタンの角の丸みを無くしてください。
+
+## 解答解説動画
+https://nk-free.com/mugi/videos/flutter_exercise_2.mp4
